@@ -1,0 +1,8 @@
+# zjhFaceBSBlender
+maya的动态插件
+Maya版本2022(Maya的扩展命令开发各版本之间不兼容)
+从Maya2022帮助文档找到Maya开发人员帮助,展开,第一项就是About The Maya devkit,点开找到 The Maya Developer Center,点开,下翻找到Maya 2022 devkit Downloads,找到Windows版本的开发工具包,下载,按照其说明,配置好开发环境
+运行程序生成zjhFaceBSBlender.mll文件
+将zjhFaceBSBlender.mll文件拷贝到Maya插件目录
+打开Maya加载这个插件
+这个节点是用来连接matehuman的绑定逻辑的,将matehuman的控制器桥接输出连接到zjhFaceBSBlender节点的输入,然后这个节点的输出端是matehuman的所有BS,这些BS连接到模型上,然后处理这些BS,就可以做到用matehuman控制器控制面部表情了
